@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!-- ประกาศชนิดเอกสารเป็น HTML5 -->
+<html lang="th"> <!-- กำหนดภาษาเว็บไซต์เป็นภาษาไทย -->
+<head>
+    <meta charset="utf-8"> <!-- รองรับการแสดงผลภาษาไทย -->
+<title>ฟอร์มกรอกข้อมูล</title> <!-- ชื่อหน้าเว็บ -->
+<style type="text/css">
+	
+	body,td,th {
+    font-size: 17px;
+}
+h2 {
+    font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+<h2></h2> <!-- หัวข้อฟอร์ม -->
+
+    <!-- ฟอร์มส่งข้อมูลไปที่ไฟล์ insert_data.php ด้วยวิธี POST -->
+    <form action="insert_data.php" method="post">
+
+     <table width="300" border="0" align="center">
+  <tbody>
+	  
+	  <tr>
+      <td align="center">&nbsp;เว็บแสดงความคิดเห็นและความต้องการ</td>
+    </tr>
+	  <tr>
+      <td>&nbsp;</td>
+    </tr>
+	  <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;ชี่อ</td>
+    </tr>
+    <tr>
+      <td>&nbsp;<input type="text" name="name" > <br></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+	  <td>&nbsp;หัวข้อ</td>
+    </tr>
+    <tr>
+      <td>&nbsp;<input type="text" name="type" required></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;ลายละเอียด</td>
+    </tr>
+    <tr>
+      <td>&nbsp;<input type="text" name="detail" required></td>
+    </tr>
+  </tbody>
+</table>
+
+	
+		
+<div style="text-align: center; margin-top: 30px;">
+      <!-- ปุ่มส่งข้อมูล -->
+      <button type="submit">บันทึกข้อมูล</button>
+
+
+	<h2>วิธีใช้งาน</h2>
+	<h2>ชื่อ เพื่อระบุชื่อผู้แสดงความคิดเห็น</h2>
+	<h2>หัวข้อ เพื่อระบุเรื่องหรือประเด็นที่ต้องการเสนอ</h2>
+	<h2>ลายละเอียด โดยพิมพ์ความคิดเห็น ข้อเสนอแนะ หรือความต้องการให้ครบถ้วนและชัดเจน</h2>
+	<h2>
+	</h2>
+	<h2>พัฒนาระบบ โดย นายอภิสิทธิ์ นามวงศ์,นายสิทธิพล อ่วมอุ่ม</h2>
+
+    </form>
+
+</body>
+</html>
